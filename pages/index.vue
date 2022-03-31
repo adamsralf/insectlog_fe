@@ -1,5 +1,5 @@
 <template>
-  <Tutorial/>
+  <LandingpageHero></LandingpageHero>
 </template>
 
 <script>
