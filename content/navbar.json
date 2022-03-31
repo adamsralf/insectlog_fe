@@ -1,0 +1,29 @@
+{
+  "links": [
+    {
+      "title": "Startseite",
+      "url": "/",
+      "external": false
+    },
+    {
+      "title": "Projekt",
+      "url": "/project",
+      "external": false
+    },
+    {
+      "title": "Übersicht",
+      "url": "/overview",
+      "external": false
+    },
+    {
+      "title": "Trends",
+      "url": "/trends",
+      "external": false
+    }
+  ],
+  "buttons": {
+    "login": "Anmelden",
+    "register": "Registrieren"
+  },
+  "logo": "erasmus_header_small.png"
+}

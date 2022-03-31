@@ -1,0 +1,21 @@
+{
+  "hero": {
+    "title": "Take control of your",
+    "subtitle": "customer support",
+    "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    "buttons": [
+      {
+        "title": "Get started",
+        "url": "/",
+        "external": false,
+        "classes": "text-primary-700 bg-white hover:bg-primary-50"
+      },
+      {
+        "title": "Live demo",
+        "url": "/",
+        "external": false,
+        "classes": "text-white bg-primary-500 bg-opacity-60 hover:bg-opacity-70"
+      }
+    ]
+  }
+}
