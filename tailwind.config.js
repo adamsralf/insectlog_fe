@@ -3,6 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      height: {
+        '125': '28rem',
+        '150': '32rem',
+        '175': '48rem',
+        '200': '64rem',
+      },
       colors: {
         'primary': {
           DEFAULT: '#2A669F',

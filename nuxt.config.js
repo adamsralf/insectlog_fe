@@ -2,7 +2,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'server',
   head: {
-    title: 'insectlog_frontend',
+    title: 'InsectLogger - Erasmus+',
     htmlAttrs: {
       lang: 'en'
     },
