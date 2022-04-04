@@ -21,7 +21,7 @@
           <nav class="flex space-x-10">
             <div v-for="link in topbar.links" :key="link.url + 'desktop'">
               <div>
-                <div class="text-gray-500 group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">
+                <div class="text-gray-500 group rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary-500">
                   <a v-if="link.external" :href="link.url" target="_blank">
                     <span>{{ link.title }}</span>
                   </a>
