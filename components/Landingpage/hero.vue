@@ -1,60 +1,37 @@
 <template>
   <div>
-    <div class="relative">
-      <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
-      <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="relative shadow-xl sm:rounded-2xl sm:overflow-hidden">
-          <div class="absolute inset-0">
-            <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1521737852567-6949f3f9f2b5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2830&q=80&sat=-100" alt="People working on laptops">
-            <div class="absolute inset-0 bg-primary-700 mix-blend-multiply"></div>
-          </div>
-          <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
-            <h1 class="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-            <span class="block text-white">
-              {{ hero.title }}
-            </span>
-              <span class="block text-primary-200">
-              {{ hero.subtitle }}
-            </span>
-            </h1>
-            <p class="mt-6 max-w-lg mx-auto text-center text-xl text-primary-200 sm:max-w-3xl">
-              {{ hero.description }}
-            </p>
-            <div class="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
-              <div class="space-y-4 sm:space-y-0 sm:mx-auto sm:inline-grid sm:grid-cols-2 sm:gap-5">
-                <div v-for="button in this.hero.buttons" :key="button.url" :class="[ button.classes, 'flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm sm:px-8']">
-                  <a v-if="button.external" :href="button.url" target="_blank">
-                    <span>{{ button.title }}</span>
-                  </a>
-                  <nuxt-link v-else :to="button.url">
-                    <span>{{ button.title }}</span>
-                  </nuxt-link>
-                </div>
-              </div>
-            </div>
+    <div class="w-full absolute z-20 flex flex-col justify-evenly h-screen bg-gray-800 bg-opacity-30">
+      <div>
+        <div class=" text-5xl md:text-6xl xl:text-7xl font-bold text-white mt-16 mb-5 mx-16">
+          Gemeinsam für eine <br>Insektenreiche Zukunft
+        </div>
+        <div class="flex mb-5">
+          <div class="w-10/12 lg:w-2/3 2xl:w-1/3 text-white mx-16">
+            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
           </div>
         </div>
+        <div class="flex mx-16">
+          <button class="bg-yellow-300 px-4 py-3 rounded-xl font-bold">
+            Jetzt erkunden
+          </button>
+        </div>
+      </div>
+      <div class="mt-64 w-full flex justify-center animate-bounce text-white">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 cursor-pointer" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M19 13l-7 7-7-7m14-8l-7 7-7-7" />
+        </svg>
       </div>
     </div>
+    <img :src="require('~/assets/images/hero_2.jpg')" class="h-screen w-full object-cover absolute z-0" alt="">
   </div>
 </template>
 
 <script>
 export default {
-  name: "hero",
-  data() {
-    return {
-      hero: {
-        title: "",
-        subtitle: "",
-        description: "",
-        buttons: []
-      }
-    }
-  },
-  async fetch() {
-    let content = await this.$content('landingpage').fetch()
-    this.hero = content.hero
-  },
+  name: "hero"
 }
 </script>
+
+<style scoped>
+
+</style>

@@ -16,6 +16,7 @@
         "external": false,
         "classes": "text-white bg-primary-500 bg-opacity-60 hover:bg-opacity-70"
       }
-    ]
+    ],
+    "image": "hero_2.jpg"
   }
 }
