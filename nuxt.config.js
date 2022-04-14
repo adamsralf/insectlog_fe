@@ -30,14 +30,31 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt-hero-icons/outline/nuxt',
+    '@nuxt-hero-icons/solid/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    '@nuxt/content'
+    '@nuxt/content',
+    '@nuxtjs/i18n'
   ],
+
+  i18n: {
+    vueI18n: {
+      fallbackLocale: 'de',
+    },
+    locales: [
+      {
+        code: 'de',
+        file: 'de-DE.json'
+      },
+    ],
+    lazy: false,
+    langDir: 'lang/',
+    defaultLocale: 'de'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

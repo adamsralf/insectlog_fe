@@ -8,7 +8,10 @@
     "start": "nuxt start"
   },
   "dependencies": {
+    "@nuxt-hero-icons/outline": "^1.0.1",
+    "@nuxt-hero-icons/solid": "^1.0.1",
     "@nuxt/content": "^1.15.1",
+    "@nuxtjs/i18n": "^7.2.1",
     "core-js": "^3.19.3",
     "nuxt": "^2.15.0",
     "vue": "^2.6.14",
