@@ -1,9 +1,9 @@
 <template>
   <div>
-    <LandingpageHero :content="landingpage.hero" class="relative h-screen"></LandingpageHero>
-    <LandingpageFeatures :features="landingpage.features"></LandingpageFeatures>
-    <LandingpageBanner :content="landingpage.banner"></LandingpageBanner>
-    <LandingpageGallery :content="landingpage.events"></LandingpageGallery>
+    <LandingpageHero :content="landingpage.hero" class="relative h-screen" v-if="landingpage.hero"></LandingpageHero>
+    <LandingpageFeatures :features="landingpage.features" v-if="landingpage.features"></LandingpageFeatures>
+    <LandingpageBanner :content="landingpage.banner" v-if="landingpage.banner"></LandingpageBanner>
+    <LandingpageGallery :content="landingpage.events" v-if="landingpage.events"></LandingpageGallery>
   </div>
 </template>
 
@@ -18,10 +18,10 @@ export default {
   data() {
     return {
       landingpage: {
-        hero: {},
-        events: [],
-        banner: {},
-        features: []
+        hero: null,
+        events: null,
+        banner: null,
+        features: null
       }
     }
   },
