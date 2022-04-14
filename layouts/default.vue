@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="relative">
     <Navbar :content="navbar"></Navbar>
     <Nuxt/>
     <Footer :content="footer"></Footer>
