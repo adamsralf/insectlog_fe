@@ -1,3 +1,28 @@
 {
-  "info": "General Translation file"
+  "info": "General Translation file",
+  "login": {
+    "header": {
+      "title": "Willkommen zurück!",
+      "subtitle": "Melde dich jetzt für das Dashboard an."
+    },
+    "form": {
+      "email": "Email Adresse",
+      "password": "Passwort",
+      "remember_me": "Passwort merken",
+      "forgot_password": "Passwort vergessen?"
+    },
+    "login": "Anmelden"
+  },
+  "register": {
+    "header": {
+      "title": "Herzlich Willkommen!",
+      "subtitle": "Erstelle dir einen Nutzerkonto um Zugriff auf das Dashboard zu erhalten."
+    },
+    "form": {
+      "email": "Email Adresse",
+      "password": "Passwort",
+      "already_account": "Du hast bereits ein Konto?"
+    },
+    "register": "Registrieren"
+  }
 }
