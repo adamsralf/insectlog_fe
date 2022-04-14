@@ -1,0 +1,39 @@
+{
+  "navbar": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "already_account": "Du hast bereits einen Account?",
+    "close_menu": "Close menu",
+    "open_menu": "Open menu",
+    "project_name": "Erasmus",
+    "links": [
+      {
+        "title": "Startseite",
+        "url": "/",
+        "icon": "outline-home-icon",
+        "external": false
+      },
+      {
+        "title": "Projekt",
+        "url": "/project",
+        "icon": "outline-beaker-icon",
+        "external": false
+      },
+      {
+        "title": "Übersicht",
+        "url": "/overview",
+        "icon": "outline-map-icon",
+        "external": false
+      }
+    ],
+    "logo": "erasmus_header_small.png"
+  },
+  "footer": {
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "powered_by": "Powered by Erasmus+",
+    "impress": "Impressum",
+    "security": "Datenschutz",
+    "copyright": " 2022 Technische Berufliche Schule 1. All rights reserved."
+  }
+}
