@@ -2,17 +2,17 @@
   <div>
     <div class="w-full absolute z-20 flex flex-col justify-evenly h-screen bg-gray-800 bg-opacity-30">
       <div>
-        <div class=" text-5xl md:text-6xl xl:text-7xl font-bold text-white mt-16 mb-5 mx-16">
-          Gemeinsam für eine <br>Insektenreiche Zukunft
+        <div class=" text-5xl md:text-6xl xl:text-7xl font-bold text-white mt-16 mb-5 mx-16 xl:w-2/3 2xl:w-1/2">
+          {{ content.title }}
         </div>
         <div class="flex mb-5">
           <div class="w-10/12 lg:w-2/3 2xl:w-1/3 text-white mx-16">
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+            {{ content.description }}
           </div>
         </div>
         <div class="flex mx-16">
           <button class="bg-yellow-300 px-4 py-3 rounded-xl font-bold">
-            Jetzt erkunden
+            {{ content.button }}
           </button>
         </div>
       </div>
@@ -22,16 +22,18 @@
         </svg>
       </div>
     </div>
-    <img :src="require('~/assets/images/hero_2.jpg')" class="h-screen w-full object-cover absolute z-0" alt="">
+    <img :src="require('~/assets/images/' + content.image)" class="h-screen w-full object-cover absolute z-0" alt="" v-if="content.image">
   </div>
 </template>
 
 <script>
 export default {
-  name: "hero"
+  name: "hero",
+  props: {
+    content: {
+      type: Object
+    }
+  }
 }
 </script>
 
-<style scoped>
-
-</style>
