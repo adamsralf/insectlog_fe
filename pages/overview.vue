@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="pt-24">
     <div class="grid grid-cols-3">
       <div class="p-5 col-span-2">
         <img src="~/assets/images/map.png" class="rounded-3xl overflow-hidden border border-gray-200 w-full h-175 object-cover" alt="">
