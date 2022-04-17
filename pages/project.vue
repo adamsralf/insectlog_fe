@@ -1,9 +1,9 @@
 <template>
   <div>
-    <ProjectHero :content="project.hero"></ProjectHero>
-    <ProjectStatistics :content="project.statistics"></ProjectStatistics>
-    <ProjectFeatures :content="project.features"></ProjectFeatures>
-    <ProjectTeam :content="project.team"></ProjectTeam>
+    <ProjectHero :content="project.hero" v-if="project.hero"></ProjectHero>
+    <ProjectStatistics :content="project.statistics" v-if="project.statistics"></ProjectStatistics>
+    <ProjectFeatures :content="project.features" v-if="project.features"></ProjectFeatures>
+    <ProjectTeam :content="project.team" v-if="project.team"></ProjectTeam>
   </div>
 </template>
 
