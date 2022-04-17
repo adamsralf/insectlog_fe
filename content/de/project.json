@@ -1,0 +1,142 @@
+{
+  "hero": {
+    "title": "Der Insektenlogger",
+    "subtitle": "PROJEKTÜBERSICHT",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt.",
+    "voting": {
+      "stars": [1,2,3,4,5],
+      "rated_by": "Bewertet mit 5 Sternen",
+      "over": "von über",
+      "users": "500 beta Nutzern"
+    },
+    "logo": "logo/erasmus_header_small.png",
+    "image": "devices/laptop.png"
+  },
+  "features": {
+    "header": {
+      "title": "Forsche Nachhaltig",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua."
+    },
+    "top": {
+      "title": "Datenspeicherung für jüngere Generationen",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "image": "banners/banner_1.jpeg"
+    },
+    "bottom": {
+      "title": "Einfache Handhabung",
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+      "image": "banners/banner_2.jpeg"
+    }
+  },
+  "statistics": {
+    "title": "Eine Wissensplattform für jedermann!",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus repellat laudantium.",
+    "statistics": [
+      {
+        "id": 1,
+        "number": "+500.000",
+        "title": "Hinterlegte Positionen"
+      },
+      {
+        "id": 2,
+        "number": "58.255",
+        "title": "Gesammelte Insektenarten"
+      },
+      {
+        "id": 3,
+        "number": "+350",
+        "title": "Registrierte Benutzer"
+      }
+    ]
+  },
+  "team": {
+    "title": "Wer sind wir?",
+    "description": "Risus velit condimentum vitae tincidunt tincidunt. Mauris ridiculus fusce amet urna nunc. Ut nisl ornare diam in.",
+    "members": [
+      {
+        "id": 1,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Webentwicklung",
+        "image": "https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 2,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "App Entwicklung",
+        "image": "https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 3,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "App Entwicklung",
+        "image": "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 4,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "App Entwicklung",
+        "image": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 5,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Kommunikation",
+        "image": "https://images.pexels.com/photos/11729704/pexels-photo-11729704.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 6,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Kommunikation",
+        "image": "https://images.pexels.com/photos/9707684/pexels-photo-9707684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 7,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Management",
+        "image": "https://images.pexels.com/photos/2080736/pexels-photo-2080736.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 8,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Design",
+        "image": "https://images.pexels.com/photos/2537658/pexels-photo-2537658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 9,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Marketing",
+        "image": "https://images.pexels.com/photos/590479/pexels-photo-590479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 10,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Beratung",
+        "image": "https://images.pexels.com/photos/2460488/pexels-photo-2460488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 11,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Backend Entwicklung",
+        "image": "https://images.pexels.com/photos/2765557/pexels-photo-2765557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      },
+      {
+        "id": 12,
+        "firstname": "Michael",
+        "lastname": "Foster",
+        "role": "Backend Entwicklung",
+        "image": "https://images.pexels.com/photos/966067/pexels-photo-966067.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+      }
+    ]
+  }
+}
