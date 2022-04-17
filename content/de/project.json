@@ -51,7 +51,7 @@
   },
   "team": {
     "title": "Wer sind wir?",
-    "description": "Risus velit condimentum vitae tincidunt tincidunt. Mauris ridiculus fusce amet urna nunc. Ut nisl ornare diam in.",
+    "description": "Wir sind das Team hinter dem Insekten Logger.",
     "members": [
       {
         "id": 1,
@@ -62,78 +62,78 @@
       },
       {
         "id": 2,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Lena",
+        "lastname": "Enriquez",
         "role": "App Entwicklung",
         "image": "https://images.pexels.com/photos/1520760/pexels-photo-1520760.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 3,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Andrew",
+        "lastname": "Dale",
         "role": "App Entwicklung",
         "image": "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 4,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Harun",
+        "lastname": "Olsen",
         "role": "App Entwicklung",
         "image": "https://images.pexels.com/photos/428328/pexels-photo-428328.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 5,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Anabelle",
+        "lastname": "Leech",
         "role": "Kommunikation",
         "image": "https://images.pexels.com/photos/11729704/pexels-photo-11729704.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 6,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Sherry",
+        "lastname": "Alvarado",
         "role": "Kommunikation",
         "image": "https://images.pexels.com/photos/9707684/pexels-photo-9707684.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 7,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Jimi",
+        "lastname": "Greer",
         "role": "Management",
         "image": "https://images.pexels.com/photos/2080736/pexels-photo-2080736.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 8,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Fredrick",
+        "lastname": "Harvey",
         "role": "Design",
         "image": "https://images.pexels.com/photos/2537658/pexels-photo-2537658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 9,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Adriana",
+        "lastname": "Suarez",
         "role": "Marketing",
         "image": "https://images.pexels.com/photos/590479/pexels-photo-590479.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 10,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Rico",
+        "lastname": "Frederick",
         "role": "Beratung",
         "image": "https://images.pexels.com/photos/2460488/pexels-photo-2460488.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 11,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Enid",
+        "lastname": "Sanchez",
         "role": "Backend Entwicklung",
         "image": "https://images.pexels.com/photos/2765557/pexels-photo-2765557.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       },
       {
         "id": 12,
-        "firstname": "Michael",
-        "lastname": "Foster",
+        "firstname": "Carl",
+        "lastname": "Halliday",
         "role": "Backend Entwicklung",
         "image": "https://images.pexels.com/photos/966067/pexels-photo-966067.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
       }
