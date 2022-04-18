@@ -9,13 +9,13 @@
 </template>
 
 <script>
-import TabInsects from "@/components/Overview/tab_insects";
-import TabCategories from "@/components/Overview/tab_categories";
-import TabSpecies from "@/components/Overview/tab_species";
-import InsectMap from "@/components/Overview/insect_map";
-import InsectFeedCard from "@/components/Overview/insect_feed_card";
-import InsectFeed from "@/components/Overview/insect_feed";
-import Statistics from "@/components/Overview/statistics";
+import TabInsects from "@/components/Homepage/Overview/tab_insects";
+import TabCategories from "@/components/Homepage/Overview/tab_categories";
+import TabSpecies from "@/components/Homepage/Overview/tab_species";
+import InsectMap from "@/components/Homepage/Overview/insect_map";
+import InsectFeedCard from "@/components/Homepage/Overview/insect_feed_card";
+import InsectFeed from "@/components/Homepage/Overview/insect_feed";
+import Statistics from "@/components/Homepage/Overview/statistics";
 export default {
   name: "overview",
   components: {Statistics, InsectFeed, InsectFeedCard, InsectMap, TabSpecies, TabCategories, TabInsects}

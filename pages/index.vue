@@ -8,10 +8,10 @@
 </template>
 
 <script>
-import LandingpageHero from "@/components/Landingpage/hero";
-import LandingpageFeatures from "@/components/Landingpage/features";
-import LandingpageBanner from "@/components/Landingpage/banner";
-import LandingpageGallery from "@/components/Landingpage/gallery";
+import LandingpageHero from "@/components/Homepage/Landingpage/hero";
+import LandingpageFeatures from "@/components/Homepage/Landingpage/features";
+import LandingpageBanner from "@/components/Homepage/Landingpage/banner";
+import LandingpageGallery from "@/components/Homepage/Landingpage/gallery";
 export default {
   name: 'IndexPage',
   components: {LandingpageHero, LandingpageFeatures, LandingpageBanner, LandingpageGallery},

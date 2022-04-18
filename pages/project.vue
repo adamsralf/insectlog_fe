@@ -8,8 +8,8 @@
 </template>
 
 <script>
-import ProjectHero from "@/components/Project/hero";
-import ProjectFeatures from "@/components/Project/features";
+import ProjectHero from "@/components/Homepage/Project/hero";
+import ProjectFeatures from "@/components/Homepage/Project/features";
 export default {
   name: "project",
   components: { ProjectHero, ProjectFeatures },
