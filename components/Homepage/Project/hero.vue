@@ -3,10 +3,10 @@
     <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-48">
       <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
         <div>
-          <div>
+          <div data-aos="fade-down-right">
             <img class="h-11 w-auto" :src="require('~/assets/images/' + content.logo)" alt="" v-if="content.logo">
           </div>
-          <div class="mt-20">
+          <div class="mt-20" data-aos="fade-right">
             <div>
               <div class="inline-flex space-x-4">
                   <span class="inline-flex items-center text-sm font-medium text-primary space-x-1 uppercase">
@@ -56,7 +56,7 @@
             </svg>
           </div>
           <div class="relative pl-4  sm:mx-auto sm:max-w-3xl sm:px-0 lg:max-w-none lg:h-full lg:pl-12">
-            <img class="w-full lg:h-full lg:w-auto lg:max-w-none" :src="require('~/assets/images/' + content.image)" alt="" v-if="content.image">
+            <img data-aos="zoom-in" class="w-full lg:h-full lg:w-auto lg:max-w-none" :src="require('~/assets/images/' + content.image)" alt="" v-if="content.image">
           </div>
         </div>
       </div>

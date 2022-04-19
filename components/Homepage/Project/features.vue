@@ -3,15 +3,15 @@
     <div class="max-w-2xl mx-auto py-24 px-4 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
       <div class="max-w-3xl mx-auto text-center">
         <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-          {{ content.header.title }}
+          {{ content.title }}
         </h2>
         <p class="mt-4 text-gray-500">
-          {{ content.header.description }}
+          {{ content.description }}
         </p>
       </div>
 
       <div class="mt-16 space-y-16">
-        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
+        <div data-aos="fade-left" data-aos-anchor-placement="top-center" class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
           <div class="mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4 lg:col-start-1">
             <h3 class="text-lg font-medium text-gray-900">
               {{ content.top.title }}
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
+        <div data-aos="fade-right" data-aos-anchor-placement="top-center" class="flex flex-col-reverse lg:grid lg:grid-cols-12 lg:gap-x-8 lg:items-center">
           <div class="mt-6 lg:mt-0 lg:row-start-1 lg:col-span-5 xl:col-span-4 lg:col-start-8 xl:col-start-9">
             <h3 class="text-lg font-medium text-gray-900">
               {{ content.bottom.title }}

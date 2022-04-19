@@ -11,7 +11,7 @@
           </p>
         </div>
         <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-12 xl:grid-cols-6">
-          <li v-for="member in content.members" :key="member.id + 'team_members'">
+          <li data-aos="zoom-in" :data-aos-delay="member.id * 100" v-for="member in content.members" :key="member.id + 'team_members'">
             <div class="space-y-4">
               <img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" :src="member.image" alt="">
               <div class="space-y-2">
