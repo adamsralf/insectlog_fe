@@ -10,7 +10,7 @@
         <rect width="404" height="784" fill="url(#b1e6e422-73f8-40a6-b5d9-c8586e37e0e7)" />
       </svg>
 
-      <div class="relative">
+      <div data-aos="zoom-in-down" class="relative">
         <h2 class="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
           {{ features.header.title }}
         </h2>
@@ -20,7 +20,7 @@
       </div>
 
       <div class="relative mt-12 lg:mt-24 lg:grid lg:grid-cols-2 lg:gap-8 lg:items-center">
-        <div class="relative">
+        <div data-aos="zoom-in-right" class="relative">
           <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
             {{ features.top.title }}
           </h3>
@@ -54,7 +54,7 @@
             </defs>
             <rect width="784" height="404" fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)" />
           </svg>
-          <img class="relative mx-auto" width="490" :src="require('~/assets/images/' + features.top.image)" alt="" v-if="features.top.image">
+          <img data-aos="zoom-in" class="relative mx-auto" width="490" :src="require('~/assets/images/' + features.top.image)" alt="" v-if="features.top.image">
         </div>
       </div>
 
@@ -69,7 +69,7 @@
 
       <div class="relative mt-12 sm:mt-16 lg:mt-24">
         <div class="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center">
-          <div class="lg:col-start-2">
+          <div class="lg:col-start-2" data-aos="zoom-in-left">
             <h3 class="text-2xl font-extrabold text-gray-900 tracking-tight sm:text-3xl">
               {{ features.bottom.title }}
             </h3>
@@ -103,7 +103,7 @@
               </defs>
               <rect width="784" height="404" fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)" />
             </svg>
-            <img class="relative mx-auto" width="490" :src="require('~/assets/images/' + features.bottom.image)" alt="" v-if="features.bottom.image">
+            <img data-aos="zoom-in" class="relative mx-auto" width="490" :src="require('~/assets/images/' + features.bottom.image)" alt="" v-if="features.bottom.image">
           </div>
         </div>
       </div>

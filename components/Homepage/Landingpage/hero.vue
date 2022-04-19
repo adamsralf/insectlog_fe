@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="w-full absolute z-20 flex flex-col justify-evenly h-screen bg-gray-800 bg-opacity-30 pt-64">
-      <div class="pt-16 px-4 lg:px-8 xl:px-16 text-center lg:text-left w-10/12 xl:w-3/4 2xl:w-2/3">
+      <div data-aos="fade-right" class="pt-16 px-4 lg:px-8 xl:px-16 text-center lg:text-left w-10/12 xl:w-3/4 2xl:w-2/3">
         <div class="text-5xl md:text-6xl xl:text-7xl font-bold text-white mb-5">
           {{ content.title }}
         </div>
