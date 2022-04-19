@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full h-full">
+  <div class="w-full h-full overflow-hidden">
     <InsectMap></InsectMap>
     <div class="py-8 px-16 grid grid-cols-3 gap-8">
       <InsectFeed></InsectFeed>
