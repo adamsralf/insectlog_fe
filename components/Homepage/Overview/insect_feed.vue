@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="grid grid-cols-4 gap-8">
-      <InsectFeedCard :insect="insect" v-for="insect in insect_feed" :key="insect.id + insect.name"></InsectFeedCard>
+      <InsectFeedCard data-aos="fade-up" :data-aos-delay="insect.id * 200" :insect="insect" v-for="insect in insect_feed" :key="insect.id + insect.name"></InsectFeedCard>
     </div>
   </div>
 </template>

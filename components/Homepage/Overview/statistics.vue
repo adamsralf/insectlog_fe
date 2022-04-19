@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="grid grid-cols-1 grid-rows-2 gap-y-3">
-      <div class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
+      <div data-aos="fade-left" data-aos-delay="200" class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
         <div>
           <div class="absolute bg-primary-500 rounded-md p-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -22,7 +22,7 @@
           <p class="text-2xl font-semibold text-gray-900">71,897</p>
         </div>
       </div>
-      <div class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
+      <div data-aos="fade-left" data-aos-delay="400" class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
         <div>
           <div class="absolute bg-primary-500 rounded-md p-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -35,7 +35,7 @@
           <p class="text-2xl font-semibold text-gray-900">420</p>
         </div>
       </div>
-      <div class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
+      <div data-aos="fade-left" data-aos-delay="600" class="relative bg-white p-3 shadow rounded-lg overflow-hidden border">
         <div>
           <div class="absolute bg-primary-500 rounded-md p-3">
             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

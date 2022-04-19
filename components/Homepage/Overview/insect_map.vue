@@ -1,16 +1,16 @@
 <template>
   <div class="h-screen w-full pt-32 px-16 pb-16">
-    <div class="relative h-full w-full overflow-hidden rounded-3xl">
+    <div data-aos="zoom-in" data-aos-delay="400" class="relative h-full w-full overflow-hidden rounded-3xl">
       <div class="absolute w-full p-4 flex justify-between z-40">
-        <div class="bg-white p-2 border rounded-xl flex gap-2">
+        <div data-aos="fade-down-right" data-aos-delay="800" class="bg-white p-2 border rounded-xl flex gap-2">
           <solid-search-icon class="h-6 w-6 text-primary"></solid-search-icon>
           <input type="text" placeholder="Suchen" class="outline-none">
         </div>
         <div class="flex gap-3">
-          <div @click="current_popup = 1" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
+          <div data-aos="fade-down-left" data-aos-delay="800" @click="current_popup = 1" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
             <solid-filter-icon class="h-6 w-6 text-primary"></solid-filter-icon>
           </div>
-          <div @click="current_popup = 2" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
+          <div data-aos="fade-down-left" data-aos-delay="800" @click="current_popup = 2" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
             <solid-cog-icon class="h-6 w-6 text-primary"></solid-cog-icon>
           </div>
         </div>
