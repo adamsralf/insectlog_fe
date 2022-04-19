@@ -10,16 +10,18 @@
 <script>
 import ProjectHero from "@/components/Homepage/Project/hero";
 import ProjectFeatures from "@/components/Homepage/Project/features";
+import ProjectStatistics from "@/components/Homepage/Project/statistics";
+import ProjectTeam from "@/components/Homepage/Project/team";
 export default {
   name: "project",
-  components: { ProjectHero, ProjectFeatures },
+  components: { ProjectHero, ProjectFeatures, ProjectStatistics, ProjectTeam },
   data() {
     return {
       project: {
         hero: null,
         statistics: null,
-        team: null,
-        features: null
+        features: null,
+        team: null
       }
     }
   },
