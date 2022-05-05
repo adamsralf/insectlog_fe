@@ -14,8 +14,8 @@
         "external": false
       },
       {
-        "title": "Platzhalter",
-        "url": "/dashboard/placeholder",
+        "title": "Statistiken",
+        "url": "/dashboard/statistics",
         "external": false
       }
     ],
