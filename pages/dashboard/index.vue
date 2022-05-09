@@ -46,12 +46,10 @@
                           <span class="text-gray-900">12</span>
                           <span class="text-gray-600">{{ $t('dashboard.header.localized_insects') }}</span>
                         </div>
-
                         <div class="px-6 py-5 text-sm font-medium text-center">
                           <span class="text-gray-900">4</span>
                           <span class="text-gray-600">{{ $t('dashboard.header.scanned_insects') }}</span>
                         </div>
-
                         <div class="px-6 py-5 text-sm font-medium text-center">
                           <span class="text-gray-900">2</span>
                           <span class="text-gray-600">{{ $t('dashboard.header.registered_insects') }}</span>

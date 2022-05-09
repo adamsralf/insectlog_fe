@@ -1,16 +1,18 @@
 <template>
-  <div>
-    <Navbar :content="navbar"></Navbar>
-    <Nuxt></Nuxt>
+  <div class="grid grid-cols-6 h-screen">
+    <!--<Navbar :content="navbar"></Navbar>-->
+    <Sidenav></Sidenav>
+    <Nuxt class="col-span-5"></Nuxt>
   </div>
 </template>
 
 <script>
 import Navbar from "@/components/Dashboard/Layout/navbar";
+import Sidenav from "@/components/Dashboard/Layout/sidenav";
 
 export default {
   name: "dashboard",
-  components: {Navbar},
+  components: {Sidenav, Navbar},
   data() {
     return {
       navbar: {},
