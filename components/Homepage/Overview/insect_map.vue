@@ -44,7 +44,37 @@
           <TabSpecies v-if="current_tab === 3"></TabSpecies>
         </div>
       </div>
+      <!--
       <iframe class="w-full h-full" id="gmap_canvas" src="https://maps.google.com/maps?q=Bochum&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      -->
+      <client-only>
+        <l-map :zoom="zoom" @update:zoom="zoomUpdated" :center="[51.31413,10.18798]">
+            <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"/>
+            <l-circle-marker
+              v-for="point in coordinates" :key="point.x + point.y"
+              :lat-lng="[point.y, point.x]"
+              :radius="zoom * 0.5"
+              :color="'#2A669F'"
+            >
+              <l-tooltip>
+                <div>
+                  <p>
+                    Bezeichnung: <span class="text-primary">Wildbiene</span>
+                  </p>
+                  <p>
+                    Überfamilie: <span class="text-primary">Apoidea</span>
+                  </p>
+                  <p>
+                    Wiss. Bezeichnung: <span class="text-primary">Apis mellifera</span>
+                  </p>
+                  <p>
+                    Hinzugefügt am: <span class="text-primary">27.10.2022</span>
+                  </p>
+                </div>
+              </l-tooltip>
+            </l-circle-marker>
+        </l-map>
+      </client-only>
     </div>
   </div>
 </template>
@@ -186,7 +216,32 @@ export default {
           },
           image: "4.jpg"
         }
-      ]
+      ],
+      coordinates: [],
+      zoom: 5
+    }
+  },
+  mounted() {
+    this.getRandomCoordinates()
+  },
+  methods: {
+    zoomUpdated (zoom) {
+      this.zoom = zoom;
+    },
+    getRandomFloat(min, max, decimals) {
+      const str = (Math.random() * (max - min) + min).toFixed(decimals);
+      return parseFloat(str);
+    },
+    getRandomCoordinates() {
+      let coordinates = []
+      for (let i = 0; i < 100; i++) {
+        coordinates.push({
+          x: this.getRandomFloat(6, 15, 50),
+          y: this.getRandomFloat(47, 55, 50),
+        })
+      }
+      this.coordinates = coordinates
+      return coordinates
     }
   }
 }
