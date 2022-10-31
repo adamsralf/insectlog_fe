@@ -41,6 +41,7 @@ export default {
     '@nuxt/content',
     '@nuxtjs/i18n',
     'nuxt-leaflet',
+    '@nuxtjs/axios'
   ],
 
   i18n: {
