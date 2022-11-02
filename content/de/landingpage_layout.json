@@ -1,0 +1,42 @@
+{
+  "navbar": {
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "already_account": "Du hast bereits einen Account?",
+    "close_menu": "Close menu",
+    "open_menu": "Open menu",
+    "project_name": "Erasmus",
+    "links": [
+      {
+        "id": 1,
+        "title": "Startseite",
+        "url": "/",
+        "icon": "outline-home-icon",
+        "external": false
+      },
+      {
+        "id": 2,
+        "title": "Projektübersicht",
+        "url": "/project",
+        "icon": "outline-beaker-icon",
+        "external": false
+      },
+      {
+        "id": 3,
+        "title": "Insektenkarte",
+        "url": "/overview",
+        "icon": "outline-map-icon",
+        "external": false
+      }
+    ],
+    "logo": "erasmus_header_small.png"
+  },
+  "footer": {
+    "twitter": "Twitter",
+    "github": "GitHub",
+    "powered_by": "Powered by Erasmus+",
+    "impress": "Impressum",
+    "security": "Datenschutz",
+    "copyright": " 2022 Technische Berufliche Schule 1. All rights reserved."
+  }
+}

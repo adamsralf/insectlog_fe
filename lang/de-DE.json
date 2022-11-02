@@ -1,0 +1,46 @@
+{
+  "info": "General Translation file",
+  "dashboard": {
+    "title": "Dashboard",
+    "header": {
+      "welcome_back": "Willkommen zurück,",
+      "localized_insects": "Lokalisierte Insekten",
+      "scanned_insects": "Gescannte Insekten",
+      "registered_insects": "Registrierte Insekten",
+      "show_profile": "Profil anzeigen"
+    },
+    "announcements": {
+      "title": "Ankündigungen",
+      "view_all": "Alle anzeigen"
+    },
+    "recent_insects": {
+      "title": "Letzte Insekten",
+      "view_all": "Alle anzeigen"
+    }
+  },
+  "login": {
+    "header": {
+      "title": "Willkommen zurück!",
+      "subtitle": "Melde dich jetzt für das Dashboard an."
+    },
+    "form": {
+      "email": "Email Adresse",
+      "password": "Passwort",
+      "remember_me": "Passwort merken",
+      "forgot_password": "Passwort vergessen?"
+    },
+    "login": "Anmelden"
+  },
+  "register": {
+    "header": {
+      "title": "Herzlich Willkommen!",
+      "subtitle": "Erstelle dir einen Nutzerkonto um Zugriff auf das Dashboard zu erhalten."
+    },
+    "form": {
+      "email": "Email Adresse",
+      "password": "Passwort",
+      "already_account": "Du hast bereits ein Konto?"
+    },
+    "register": "Registrieren"
+  }
+}

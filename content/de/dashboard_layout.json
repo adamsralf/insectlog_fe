@@ -1,0 +1,43 @@
+{
+  "navbar": {
+    "view_notifications": "Benachrichtigungen öffnen",
+    "open_user_menu": "Öffne Nutzermenü",
+    "links": [
+      {
+        "title": "Dashboard",
+        "icon": "outline-home-icon",
+        "url": "/dashboard",
+        "external": false
+      },
+      {
+        "title": "Insketen",
+        "icon": "outline-clipboard-list-icon",
+        "url": "/dashboard/insects",
+        "external": false
+      },
+      {
+        "title": "Statistiken",
+        "icon": "outline-chart-bar-icon",
+        "url": "/dashboard/statistics",
+        "external": false
+      }
+    ],
+    "profile_dropdown": [
+      {
+        "title": "Dein Profil",
+        "url": "/dashboard/profile",
+        "external": false
+      },
+      {
+        "title": "Einstellungen",
+        "url": "/dashboard/settings",
+        "external": false
+      },
+      {
+        "title": "Ausloggen",
+        "url": "/logout",
+        "external": false
+      }
+    ]
+  }
+}

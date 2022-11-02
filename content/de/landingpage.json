@@ -1,0 +1,95 @@
+{
+  "hero": {
+    "title": "Gemeinsam für eine Insektenreiche Zukunft",
+    "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.",
+    "button": "Jetzt erkunden",
+    "image": "hero_2.jpg"
+  },
+  "events": {
+    "header": {
+      "title": "Nutzergeschichten",
+      "description": "Hier findet Ihr kürzliche Events von unseren Nutzern, gerne kannst du bei uns auch deine Insektensuch Aktion einreichen!"
+    },
+    "events":[
+      {
+        "id": 1,
+        "title": "Bienenentdeckung im Schwarzwald",
+        "image": "gallery/1.jpg",
+        "name": "Bienen im Schwarzwald",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      },
+      {
+        "id": 2,
+        "title": "Musterschule - Gruppenwanderschaft in Alaska",
+        "image": "gallery/2.jpg",
+        "name": "Wanderschaft in Alaska",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      },
+      {
+        "id": 3,
+        "title": "Grundschüler entdeckt seltene Insektenart",
+        "image": "gallery/3.jpg",
+        "name": "Seltene Insektenart",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      },
+      {
+        "id": 4,
+        "title": "Zeltnacht mit besonderen Gästen",
+        "image": "gallery/4.jpg",
+        "name": "Bärenbesuch im Zelt",
+        "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+      }
+    ]
+  },
+  "banner": {
+    "title": "Entdecke die Insektenkarte",
+    "description": "Mattis amet hendrerit dolor, quisque lorem pharetra. Pellentesque lacus nisi urna, arcu sociis eu. Orci vel lectus nisl eget eget ut consectetur. Sit justo viverra non adipisicing elit distinctio.",
+    "button": "Erkunden",
+    "image": "illustrations/banner.png"
+  },
+  "features": {
+    "header": {
+      "title": "Entdecke die Welt der Insekten",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in, accusamus quisquam."
+    },
+    "top": {
+      "title": "Auch unterwegs Verfügbar",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.\n\n",
+      "features": [
+        {
+          "title": "Verfügbar für Android Smartphones",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.\n",
+          "icon": "outline-device-mobile-icon"
+        },
+        {
+          "title": "Einfache Bedienung",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.\n",
+          "icon": "outline-cursor-click-icon"
+        },
+        {
+          "title": "Blitzschneller Zugriff",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.\n",
+          "icon": "outline-lightning-bolt-icon"
+        }
+      ],
+      "image": "illustrations/wandering_character.png"
+    },
+    "bottom": {
+      "title": "Entdecke wie ein Profi",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur minima sequi recusandae, porro maiores officia assumenda aliquam laborum ab aliquid veritatis impedit odit adipisci optio iste blanditiis facere. Totam, velit.",
+      "features": [
+        {
+          "title": "Großes Insektenregister",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.\n",
+          "icon": "outline-collection-icon"
+        },
+        {
+          "title": "Zugriff für Jedermann",
+          "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.\n",
+          "icon": "outline-users-icon"
+        }
+      ],
+      "image": "illustrations/walking_kids.png"
+    }
+  }
+}

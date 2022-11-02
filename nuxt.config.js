@@ -1,7 +1,8 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'server',
   head: {
-    title: 'insectlog_frontend',
+    title: 'InsectLogger - Erasmus+',
     htmlAttrs: {
       lang: 'en'
     },
@@ -22,6 +23,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: "~/plugins/aos", ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -29,13 +31,33 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
+    '@nuxt-hero-icons/outline/nuxt',
+    '@nuxt-hero-icons/solid/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/content',
+    '@nuxtjs/i18n',
+    'nuxt-leaflet',
+    '@nuxtjs/axios'
   ],
+
+  i18n: {
+    vueI18n: {
+      fallbackLocale: 'de',
+    },
+    locales: [
+      {
+        code: 'de',
+        file: 'de-DE.json'
+      },
+    ],
+    lazy: false,
+    langDir: 'lang/',
+    defaultLocale: 'de'
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
