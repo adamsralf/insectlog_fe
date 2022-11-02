@@ -7,36 +7,36 @@
   },
   "events": {
     "header": {
-      "title": "Projekt Events",
+      "title": "Nutzergeschichten",
       "description": "Hier findet Ihr kürzliche Events von unseren Nutzern, gerne kannst du bei uns auch deine Insektensuch Aktion einreichen!"
     },
     "events":[
       {
         "id": 1,
-        "title": "Artikel - Tab 1",
+        "title": "Bienenentdeckung im Schwarzwald",
         "image": "gallery/1.jpg",
-        "name": "Projekt 1",
+        "name": "Bienen im Schwarzwald",
         "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
       },
       {
         "id": 2,
-        "title": "Artikel - Tab 2",
+        "title": "Musterschule - Gruppenwanderschaft in Alaska",
         "image": "gallery/2.jpg",
-        "name": "Projekt 2",
+        "name": "Wanderschaft in Alaska",
         "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
       },
       {
         "id": 3,
-        "title": "Artikel - Tab 3",
+        "title": "Grundschüler entdeckt seltene Insektenart",
         "image": "gallery/3.jpg",
-        "name": "Projekt 3",
+        "name": "Seltene Insektenart",
         "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
       },
       {
         "id": 4,
-        "title": "Artikel - Tab 4",
+        "title": "Zeltnacht mit besonderen Gästen",
         "image": "gallery/4.jpg",
-        "name": "Projekt 4",
+        "name": "Bärenbesuch im Zelt",
         "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
       }
     ]
@@ -49,7 +49,7 @@
   },
   "features": {
     "header": {
-      "title": "Entdecke die Welt der Insekte",
+      "title": "Entdecke die Welt der Insekten",
       "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in, accusamus quisquam."
     },
     "top": {

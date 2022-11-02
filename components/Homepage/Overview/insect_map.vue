@@ -1,19 +1,22 @@
 <template>
   <div class="h-screen w-full pt-32 px-16 pb-16">
-    <div data-aos="zoom-in" data-aos-delay="400" class="relative h-full w-full overflow-hidden rounded-3xl">
+    <div class="relative h-full w-full overflow-hidden rounded-3xl">
       <div class="absolute w-full p-4 flex justify-between z-40">
-        <div data-aos="fade-down-right" data-aos-delay="800" class="bg-white p-2 border rounded-xl flex gap-2">
-          <solid-search-icon class="h-6 w-6 text-primary"></solid-search-icon>
+        <!--
+        <div class="bg-white p-2 border rounded-xl flex gap-2 ml-10">
+          <solid-search-icon class="h-6 w-6 text-primary"/>
           <input type="text" placeholder="Suchen" class="outline-none">
         </div>
+
         <div class="flex gap-3">
-          <div data-aos="fade-down-left" data-aos-delay="800" @click="current_popup = 1" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
-            <solid-filter-icon class="h-6 w-6 text-primary"></solid-filter-icon>
+          <div @click="current_popup = 1" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
+            <solid-filter-icon class="h-6 w-6 text-primary"/>
           </div>
-          <div data-aos="fade-down-left" data-aos-delay="800" @click="current_popup = 2" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
-            <solid-cog-icon class="h-6 w-6 text-primary"></solid-cog-icon>
+          <div @click="current_popup = 2" class="bg-white p-2 w-max h-max rounded-xl border cursor-pointer">
+            <solid-cog-icon class="h-6 w-6 text-primary"/>
           </div>
         </div>
+        -->
       </div>
       <div class="absolute w-full z-30 flex justify-end" v-if="current_popup === 1">
         <div class="mt-16 mr-4 bg-white w-1/3 rounded-xl p-4 border">
@@ -34,17 +37,43 @@
                   </a>
                 </nav>
                 <div @click="current_popup = 0" class="select-none">
-                  <solid-x-icon class="h-6 w-6 cursor-pointer text-gray-800 hover:text-primary"></solid-x-icon>
+                  <solid-x-icon class="h-6 w-6 cursor-pointer text-gray-800 hover:text-primary"/>
                 </div>
               </div>
             </div>
           </div>
-          <TabInsects :content="insects" v-if="current_tab === 1"></TabInsects>
-          <TabCategories :content="categories" v-if="current_tab === 2"></TabCategories>
-          <TabSpecies v-if="current_tab === 3"></TabSpecies>
+          <TabInsects :content="insects" v-if="current_tab === 1"/>
+          <TabCategories :content="categories" v-if="current_tab === 2"/>
+          <TabSpecies v-if="current_tab === 3"/>
         </div>
       </div>
-      <iframe class="w-full h-full" id="gmap_canvas" src="https://maps.google.com/maps?q=Bochum&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      <div class="w-full h-full absolute z-20">
+        <client-only>
+          <l-map :zoom="zoom" @update:zoom="zoomUpdated" :center="[54,19]">
+            <l-tile-layer url="http://{s}.tile.osm.org/{z}/{x}/{y}.png"/>
+            <l-circle-marker
+              v-for="point in map_data" :key="point.id"
+              :lat-lng="[point.latitude, point.longitude]"
+              :radius="zoom * 0.5"
+              :color="'#2A669F'"
+            >
+              <l-tooltip>
+                <div>
+                  <p>
+                    Bezeichnung: <span class="text-primary">{{ point.insect.species_name }}</span>
+                  </p>
+                  <p>
+                    Letzte Aktualisierung: <span class="text-primary">{{ formatDate(point.insect.updated_at) }}</span>
+                  </p>
+                  <p>
+                    Erfasst am: <span class="text-primary">{{ formatDate(point.insect.created_at) }}</span>
+                  </p>
+                </div>
+              </l-tooltip>
+            </l-circle-marker>
+          </l-map>
+        </client-only>
+      </div>
     </div>
   </div>
 </template>
@@ -56,6 +85,7 @@ import TabSpecies from "@/components/Homepage/Overview/tab_species";
 export default {
   name: "insect_map",
   components: {TabSpecies, TabCategories, TabInsects},
+  props: ['map_data'],
   data() {
     return {
       current_tab: 1,
@@ -186,7 +216,35 @@ export default {
           },
           image: "4.jpg"
         }
-      ]
+      ],
+      coordinates: [],
+      zoom: 5
+    }
+  },
+  mounted() {
+    this.getRandomCoordinates()
+  },
+  methods: {
+    zoomUpdated (zoom) {
+      this.zoom = zoom;
+    },
+    formatDate(date) {
+      return new Date(date).toLocaleString('de-DE')
+    },
+    getRandomFloat(min, max, decimals) {
+      const str = (Math.random() * (max - min) + min).toFixed(decimals);
+      return parseFloat(str);
+    },
+    getRandomCoordinates() {
+      let coordinates = []
+      for (let i = 0; i < 100; i++) {
+        coordinates.push({
+          y: this.getRandomFloat(47, 55, 2),
+          x: this.getRandomFloat(6, 15, 2),
+        })
+      }
+      this.coordinates = coordinates
+      return coordinates
     }
   }
 }

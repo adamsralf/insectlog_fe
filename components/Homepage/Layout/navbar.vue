@@ -37,13 +37,17 @@
                 </div>
               </div>
             </nav>
-            <div class="flex items-center md:ml-12">
-              <nuxt-link to="/login" class="text-base font-medium text-gray-500 hover:text-gray-900">
-                {{ content.login }}
-              </nuxt-link>
-              <nuxt-link to="/register" href="#" class="ml-8 inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary-600 hover:bg-primary-700">
-                {{ content.register }}
-              </nuxt-link>
+            <div class="flex items-center md:ml-12 gap-8">
+              <a href="#">
+                <button class="text-base font-medium text-gray-500 hover:text-gray-900">
+                  {{ content.login }}
+                </button>
+              </a>
+              <a href="#">
+                <button class="px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-primary-600 hover:bg-primary-700">
+                  {{ content.register }}
+                </button>
+              </a>
             </div>
           </div>
         </div>

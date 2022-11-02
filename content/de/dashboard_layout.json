@@ -5,16 +5,19 @@
     "links": [
       {
         "title": "Dashboard",
+        "icon": "outline-home-icon",
         "url": "/dashboard",
         "external": false
       },
       {
         "title": "Insketen",
+        "icon": "outline-clipboard-list-icon",
         "url": "/dashboard/insects",
         "external": false
       },
       {
         "title": "Statistiken",
+        "icon": "outline-chart-bar-icon",
         "url": "/dashboard/statistics",
         "external": false
       }
