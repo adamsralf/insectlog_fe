@@ -1,7 +1,7 @@
 <template>
-  <div class="grid grid-cols-6 h-screen">
+  <div class="grid grid-cols-6 w-full h-screen">
     <!--<Navbar :content="navbar"></Navbar>-->
-    <Sidenav></Sidenav>
+    <Sidenav class="col-span-1"/>
     <Nuxt class="col-span-5"></Nuxt>
   </div>
 </template>
