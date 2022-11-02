@@ -11,9 +11,11 @@
       <p class="mt-6 text-xl text-gray-100 max-w-3xl mx-auto">
         {{ content.description }}
       </p>
-      <div class="bg-yellow-300 py-3 px-5 rounded-2xl w-max font-bold shadow mx-auto cursor-pointer hover:bg-yellow-400 mt-8">
-        {{ content.button }}
-      </div>
+      <nuxt-link to="/overview">
+        <div class="bg-yellow-300 py-3 px-5 rounded-2xl w-max font-bold shadow mx-auto cursor-pointer hover:bg-yellow-400 mt-8">
+          {{ content.button }}
+        </div>
+      </nuxt-link>
     </div>
   </div>
 </template>

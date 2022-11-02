@@ -16,14 +16,14 @@
       },
       {
         "id": 2,
-        "title": "Projekt",
+        "title": "Projektübersicht",
         "url": "/project",
         "icon": "outline-beaker-icon",
         "external": false
       },
       {
         "id": 3,
-        "title": "Übersicht",
+        "title": "Insektenkarte",
         "url": "/overview",
         "icon": "outline-map-icon",
         "external": false
