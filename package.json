@@ -16,12 +16,12 @@
     "aos": "^2.3.4",
     "core-js": "^3.19.3",
     "heatmap.js": "^2.0.5",
-    "nuxt": "^2.15.0",
+    "nuxt": "^3.0.0",
     "nuxt-leaflet": "^0.0.27",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",
     "vue-template-compiler": "^2.6.14",
-    "webpack": "^4.46.0"
+    "webpack": "^5.75.0"
   },
   "devDependencies": {
     "@nuxt/types": "~2.15.0",
